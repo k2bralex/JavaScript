@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <div class="task1">
+        <div class="searchBlock">
+            <h4>CURRENT WEATHER</h4>
+            <form id="searchForm">
+                <input type="search" id="searchAPI" placeholder="Search" value="">
+                <label for="searchAPI" id="srchLbl">&#128269</label>
+            </form>
+        </div>
+        <div class="currentWeatherBlock">
+            <div class="searchBlock">
+                <h4 id="cityName"></h4>
+                <data value="" id="currentDate" style="font-weight: bold;color: steelblue"></data>
+            </div>
+            <div class="searchBlock" style="justify-content: space-around">
+                <div>
+                    <h5 id="weather"></h5>
+                    <img src="" alt="icon" id="ico" style="position: relative; bottom: 20px">
+                </div>
+                <a id="temperature"></a>
+                <div>
+                    <table>
+                        <tr>
+                            <td>Min temperature</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Max temperature</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Wind speed (km/h)</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="currentWeatherBlock">
+            <h4>Hourly</h4>
+            <div class="searchBlock" id="forecatsColl">
+                <div class="forecast">
+                    <p id="day" style="font-weight: bold"></p>
+                    <br><br><br><br>
+                    <p>Forecast</p>
+                    <p>Temp(&#8451)</p>
+                    <p>Wind(km/h)</p>
+                </div>
+                <div class="forecast">
+                    <p class="time" style="font-weight: bold"></p>
+                    <img src="" alt="icon">
+                    <p class="forecasts"></p>
+                    <p class="temp"></p>
+                    <p class="wind"></p>
+                </div>
+                <div class="forecast">
+                    <p class="time" style="font-weight: bold"></p>
+                    <img src="" alt="icon">
+                    <p class="forecasts"></p>
+                    <p class="temp"></p>
+                    <p class="wind"></p>
+                </div>
+                <div class="forecast">
+                    <p class="time" style="font-weight: bold"></p>
+                    <img src="" alt="icon">
+                    <p class="forecasts"></p>
+                    <p class="temp"></p>
+                    <p class="wind"></p>
+                </div>
+                <div class="forecast">
+                    <p class="time" style="font-weight: bold"></p>
+                    <img src="" alt="icon">
+                    <p class="forecasts"></p>
+                    <p class="temp"></p>
+                    <p class="wind"></p>
+                </div>
+                <div class="forecast">
+                    <p class="time" style="font-weight: bold"></p>
+                    <img src="" alt="icon">
+                    <p class="forecasts"></p>
+                    <p class="temp"></p>
+                    <p class="wind"></p>
+                </div>
+                <div class="forecast">
+                    <p class="time" style="font-weight: bold">21:00</p>
+                    <img src="" alt="icon">
+                    <p class="forecasts"></p>
+                    <p class="temp"></p>
+                    <p class="wind"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="task1.js"></script>
+</body>
+</html>

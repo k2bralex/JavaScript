@@ -1,0 +1,48 @@
+*{
+    font-family: "Gill Sans", sans-serif;
+}
+.task1{
+    height: 750px;
+    width: 900px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #eaeaea;
+}
+
+.searchBlock{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+
+h4{
+    color: steelblue;
+}
+
+.currentWeatherBlock{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+td{
+    margin: 5px;
+    padding: 5px;
+}
+
+#temperature{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.forecast{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.forecast img{
+    margin: -10px;
+    margin-left: -30px;
+}

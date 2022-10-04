@@ -1,0 +1,161 @@
+*{
+    font-family: "Gill Sans", sans-serif;
+}
+main{
+    width: 800px;
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+.searchContainer{
+    height: 100px;
+    width: 300px;
+    border: 1px solid darkgrey;
+    margin-left: 250px;
+}
+#searchForm{
+    display: flex;
+    flex-flow: column nowrap;
+}
+#searchForm>*{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 5px;
+}
+
+
+#searchForm>div{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#searchForm>div>label{
+    width: 15%;
+}
+
+#title, #type{
+    width: 245px;
+}
+
+#searchBtn{
+    width: 290px;
+    padding: 0;
+    align-items: center;
+}
+
+.filmList{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.filmBlock{
+    border: 1px solid darkgrey;
+    height: 230px;
+    width: 115px;
+    margin: 5px;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.poster{
+    height: 150px;
+    width: 115px;
+}
+
+.filmBlock>*{
+    margin: 2px;
+    padding: 0;
+    text-align: center;
+}
+
+section{
+    text-align: center;
+}
+
+table{
+    margin: 10px;
+    padding: 0;
+    border:none;
+    height: fit-content;
+}
+
+.col1, .col2{
+    border: none;
+    text-align: left;
+    padding: 5px 10px;
+}
+.col1{
+    width: 30px;
+}
+.col2{
+    width: 300px;
+}
+
+.detailed{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#fullPoster{
+    height: 600px;
+    width: 400px;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: bisque;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #949494; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+    margin-left: 370px;
+    margin-top: 20px;
+    display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

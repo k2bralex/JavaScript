@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="loader"></div>
+</body>
+<script>
+/*  $(document).ready(function () {
+    console.log('uraurauar')
+  })*/
+
+
+    $.ajaxSetup({
+        method: 'GET',
+        url: 'https://api.github.com/users',
+        async: true,
+    beforeSend: function () {
+        $('.loader').show();
+    },
+    complete: function (){
+        $('.loader').hide()
+        }
+    });
+
+    $.ajax({
+    success: function (result) {
+      console.log(result)
+    },
+    error: function (e) {
+      console.error(e.value)
+    }
+    });
+
+
+</script>
+</html>

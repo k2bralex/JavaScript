@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <h3>Task 1</h3>
+    <div class="task1">
+        <div id="colorise">
+<!--            <div class="color"></div>-->
+            <div class="colorFrame">
+                <label for="color">Select color:</label>
+                <input type="color" id="color">
+                <label for="colorName">Name:</label>
+                <input type="text" id="colorName" placeholder="Black">
+                <label for="colorId">Hex:</label>
+                <input type="text" id="colorId" placeholder="#000000">
+                <label for="colorRGB">RGB:</label>
+                <input type="text" id="colorRGB" placeholder="r: 0, g: 0, b: 0">
+            </div>
+            <label for="colorList"></label>
+            <select name="scrollableList" id="colorList" size="5">
+                <option value="#000000">Black</option>
+            </select>
+        </div>
+    </div>
+    <h3>Task 2</h3>
+    <div class="task2">
+        <h4 style="text-align: center">PAINT</h4>
+        <div class="wrapper"></div>
+        <div class="header" id="header">
+            <input type="radio" name="figures" id="rectangle">
+            <label for="rectangle">&#11035</label>
+            <input type="radio" name="figures" id="circle">
+            <label for="circle">&#11044</label>
+            <input type="radio" name="figures" id="rhombus">
+            <label for="rhombus">&#11045</label>
+            <input type="radio" name="figures" id="triangle">
+            <label for="triangle">&#9699</label>
+            <label for="colorPicker" style="font-size: 20px;" >Color:</label>
+            <input id="colorPicker" type="color"  value="#fc0303"/>
+        </div>
+        <div class="wrapper"></div>
+        <canvas id="canvas"></canvas>
+    </div>
+<script src="task1.js"></script>
+<script src="task2.js"></script>
+<script type="text/javascript" src="https://chir.ag/projects/ntc/ntc.js"></script>
+</body>
+</html>

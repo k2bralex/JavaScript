@@ -1,0 +1,97 @@
+*{
+    font-family: "Andale Mono", sans-serif;
+    font-size: 14px;
+}
+
+main #task1>*{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 20px;
+    width: 370px;
+}
+
+#open-modal{
+    background-color: red;
+}
+
+#close-modal{
+    background-color: blue;
+    color: white;
+    width: 250px;
+    margin-left: 25px;
+}
+
+p{
+    margin-left: 50px;
+}
+
+#modal{
+    display: none;
+    position: fixed;
+    top: 150px;
+    left: 300px;
+    width: 300px;
+    height: 100px;
+    background-color: lightskyblue;
+}
+
+#litList{
+    list-style-type: decimal;
+}
+li{
+    background-color: white;
+}
+
+#task4{
+    height: 60px;
+}
+
+#lightBorder{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 55px;
+    width: 180px;
+}
+
+#lightBorder>*{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+#next{
+    position: relative;
+    background-color: darkgray;
+    height: 50px;
+    bottom: 18px;
+}
+
+#btnTtp{
+    background-color: darkgray;
+    height: 30px;
+    width: 100px;
+}
+
+.Ttp{
+    position: relative;
+    display: inline-block;
+}
+
+.TtpText{
+    position: absolute;
+    background-color: blueviolet;
+    height: 15px;
+    color:white;
+    width: 80px;
+    margin-left: -100px;
+    margin-top: 12px;
+    font-size: 12px;
+    text-align: center;
+    visibility: hidden;
+}
+
+

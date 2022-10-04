@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--  <ul id="menu">
+    <li>Homepage</li>
+    <li>Services</li>
+    <li>Preferences</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+  <button id="replace">Replace</button>
+  <button id="addCenter">addCenter</button>-->
+
+<h2>Add new contact</h2>
+<form method="get">
+  <b>Name</b><input name="name" type="text" placeholder="Enter name">
+  <br><br>
+  <input type="submit" value="Save">
+  <input type="button" value="One more phone" onclick="addPhone()">
+  <br><br>
+  Phone number <input type="text" name="phone" id="ph" placeholder="Enter phone number">
+  <select name="type" style="width: 100px">
+    <option value="1" selected>Cellular</option>
+    <option value="2" style="color:darkred">Home</option>
+    <option value="3">Work</option>
+  </select>
+  Priority <input type="radio" name="main" value="1" checked>
+</form>
+<br><br>
+<button onclick="showElements()">Elements</button>
+<button onclick="showChildren()">Children</button>
+<button onclick="showNodes()">Nodes</button>
+<p id="out"></p>
+
+
+</body>
+<!--<script src="js1.js"></script>-->
+<script src="js2.js"></script>
+</html>

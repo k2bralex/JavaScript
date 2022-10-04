@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hometask6</title>
+    <link rel="stylesheet" href="task1.css">
+    <link rel="stylesheet" href="task2.css">
+    <link rel="stylesheet" href="task3.css">
+    <link rel="stylesheet" href="task4.css">
+    <link rel="stylesheet" href="task5.css">
+    <link rel="stylesheet" href="task6.css">
+</head>
+<body>
+  <h3>Task 1</h3>
+  <div class="task1">
+      <div id="messagesTable">
+          <div id="messageBlock" class="messages">
+              <div class="head">
+                  <span>Name</span>
+                  <div>
+                      <data value="">22.03.2022, 10:32:15</data>
+                  </div>
+              </div>
+              <hr>
+              <div class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut dolorem est,
+                  exercitationem fugit id impedit incidunt iste nemo nisi quaerat quidem sed, voluptatibus.
+                  Alias eius eum fugiat illo inventore libero magnam nihil officiis perspiciatis quisquam
+                  reiciendis, sit, tenetur vel? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut dolorem est,
+                  exercitationem fugit id impedit incidunt iste nemo nisi quaerat quidem sed, voluptatibus.
+                  Alias eius eum fugiat illo inventore libero magnam nihil officiis perspiciatis quisquam
+                  reiciendis, sit, tenetur vel?
+              </div>
+          </div>
+      </div>
+      <div id="inputBlock">
+          <h4>Add new message</h4>
+          <div class="subblock">
+              <div id="txt">
+                  <a>Your name:</a>
+                  <a>Your message:</a>
+              </div>
+              <div id="inpt">
+                  <label for="input1">
+                      <input type="text" id="input1">
+                      <br>
+                      <textarea id="input2"></textarea>
+                  </label>
+              </div>
+          </div>
+          <button type="submit" id="add">Send</button>
+      </div>
+  </div>
+  <br><br><br>
+  <h3>Task 2</h3>
+  <div class="task2" id="task2">
+      <div class="messageBlock">
+          <a><b>1)</b> How many letters are there in the word "Hello"?</a>
+          <div class="radioButtons" id="group1">
+              <label for="rb1">
+                  <input type="radio" name="group1" id="rb1">5
+              </label>
+              <label for="rb2">
+                  <input type="radio" name="group1" id="rb2">2
+              </label>
+          </div>
+      </div>
+      <div class="messageBlock">
+          <a><b>2)</b> How many letters are there in the word "World"?</a>
+          <div class="radioButtons" id="group2">
+              <label for="rb3">
+                  <input type="radio" name="group2" id="rb3">5
+              </label>
+              <label for="rb4">
+                  <input type="radio" name="group2" id="rb4">8
+              </label>
+          </div>
+      </div>
+      <div class="messageBlock">
+          <a><b>3)</b> How many consonants are there in the word "World"?</a>
+          <div class="radioButtons" id="group3">
+              <label for="rb5">
+                  <input type="radio" name="group3" id="rb5">5
+              </label>
+              <label for="rb6">
+                  <input type="radio" name="group3" id="rb6">4
+              </label>
+          </div>
+      </div>
+      <div class="messageBlock">
+          <a><b>4)</b> How many vowels are there in the word "Hello"?</a>
+          <div class="radioButtons" id="group4">
+              <label for="rb7">
+                  <input type="radio" name="group4" id="rb7">5
+              </label>
+              <label for="rb8">
+                  <input type="radio" name="group4" id="rb8">2
+              </label>
+          </div>
+      </div>
+      <div class="messageBlock" id="result">
+      </div>
+      <input type="button" value="Calculate" id="calculate">
+  </div>
+  <h3>Task 3</h3>
+  <div class="task3" id="task3">
+      <div id="contentBlock">
+        <div id="selections">
+            <div id="checks">
+                <label for="cb1">
+                    <input type="checkbox" name="style" id="cb1">
+                    Bold
+                </label>
+                <label for="cb2">
+                    <input type="checkbox" name="style" id="cb2">
+                    Underline
+                </label>
+                <label for="cb3">
+                    <input type="checkbox" name="style" id="cb3">
+                    Italics
+                </label>
+            </div>
+            <div id="radioButtons">
+                <label for="rb9">
+                    <input type="radio" name="align" id="rb9">
+                    Left
+                </label>
+                <label for="rb10">
+                    <input type="radio" name="align" id="rb10">
+                    Right
+                </label>
+                <label for="rb11">
+                    <input type="radio" name="align" id="rb11">
+                    Justify
+                </label>
+            </div>
+        </div>
+          <label for="textContent"></label>
+          <textarea id="textContent"></textarea>
+          <input type="button" value="Show Text" id="showText">
+      </div>
+      <div id="resultBlock">
+          <h3>Result:</h3>
+          <div id="showContent"></div>
+      </div>
+  </div>
+  <h3>Task 4</h3>
+  <div class="task4" id="task4">
+    <main>
+        <div class="books">
+            <div class="book">
+                <img src="imgs/1.jpg" alt="img1">
+                <h5>Torem ipsum dolor sit amet, consectetur adipisicing elit. Neque, nesciunt.</h5>
+                <a>Lorem ipsum.</a>
+                <h4>22$</h4>
+                <label for="select"></label>
+                <input type="button" class="select" value="Select">
+            </div>
+            <div class="book">
+                <img src="imgs/2.jpeg" alt="img2">
+                <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, nesciunt.</h5>
+                <a>Lorem ipsum.</a>
+                <h4>42$</h4>
+                <label for="select"></label>
+                <input type="button" class="select" value="Select">
+            </div>
+            <div class="book">
+                <img src="imgs/3.jpg" alt="img3">
+                <h5>Sorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, nesciunt.</h5>
+                <a>Lorem ipsum.</a>
+                <h4>26$</h4>
+                <label for="select"></label>
+                <input type="button" class="select" value="Select">
+            </div>
+        </div>
+        <div class="order">
+            <form action="" id="orderForm">
+                <div class="rows">
+                    <label for="book">Book</label>
+                    <input type="text" readonly id="book" style="background-color: lightgray">
+                </div>
+                <div class="rows">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity">
+                </div>
+                <div class="rows">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="rows">
+                    <label for="address">Delivery address</label>
+                    <textarea name="address" id="address"></textarea>
+                </div>
+                <div class="rows">
+                    <label for="ddate">Delivery Date</label>
+                    <input type="date" id="ddate">
+                </div>
+                <div class="rows">
+                    <label for="comment">Notes</label>
+                    <textarea name="address" id="comment"></textarea>
+                </div>
+                <div class="rows">
+                    <input type="button" id="buy" value="Buy">
+                </div>
+            </form>
+        </div>
+    </main>
+      <div id="result1">
+          <h4>Result:</h4>
+          <div style="border:1px solid darkgrey;"></div>
+      </div>
+</div>
+  <h3>Task 5</h3>
+  <div class="task5" id="task5">
+      <form action="" method="get" name="task5Form">
+          <div class="header" id="head1">
+              <div class="col">
+                  <label for="group">Group</label>
+                  <select id="group">
+                      <option>Group 1</option>
+                      <option>Group 2</option>
+                      <option>Group 3</option>
+                  </select>
+              </div>
+              <div class="col">
+                  <label for="lesson">Lesson</label>
+                  <select id="lesson">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                  </select>
+              </div>
+              <div class="col">
+                  <input type="button" value="Select" id="selectBtn">
+              </div>
+          </div>
+          <div class="wrapper"></div>
+          <div id="topic">
+              <label for="topicInput">Topic</label>
+              <input type="text" id="topicInput">
+          </div>
+          <div  id="studentsCheck">
+              <div class="header">
+                  <div class="col">
+                      <a>Name</a>
+                  </div>
+                  <div class="col">
+                      <a>Is present</a>
+                  </div>
+              </div>
+              <div class="wrap"></div>
+              <div class="header" id="toCloneStudents">
+                  <div class="col">
+                      <a>Student 1</a>
+                  </div>
+                  <div class="col">
+                      <input type="checkbox" name="isPresent">
+                  </div>
+                  <div class="wrap"></div>
+              </div>
+          </div>
+          <div id="toSaveBtn">
+              <input type="button" id="saveBtn" value="Save" style="width: 200px">
+          </div>
+      </form>
+  </div>
+  <h3>Task 6</h3>
+  <div class="task6" id="task6">
+      <form action="" method="get" id="trainForm">
+          <div class="cols">
+              <label for="direction">Direction</label>
+              <select id="direction">
+                  <option>Odessa-Nikolaev</option>
+                  <option>Nikolaev-Dnepr</option>
+                  <option>Kiev-Nikolaev</option>
+              </select>
+          </div>
+          <div class="cols">
+              <label for="dateToGo">Date</label>
+              <input type="date" id="dateToGo">
+          </div>
+          <div class="cols">
+              <input type="button" value="Search" id="searchTrain">
+          </div>
+          <div class="wrapper"></div>
+          <div class="vagonBlock" id="vagon">
+              <div class="coupe">
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">1</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">2</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">3</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">4</label>
+                  </div>
+              </div>
+              <div class="coupe">
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">5</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">6</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">7</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">8</label>
+                  </div>
+              </div>
+              <div class="coupe">
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">9</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">10</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">11</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">12</label>
+                  </div>
+              </div>
+              <div class="coupe">
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">13</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">14</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">15</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">16</label>
+                  </div>
+              </div>
+              <div class="coupe">
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">17</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">18</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">19</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">20</label>
+                  </div>
+              </div>
+              <div class="coupe">
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">21</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">22</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">23</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">24</label>
+                  </div>
+              </div>
+              <div class="coupe">
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">25</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">26</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">27</label>
+                  </div>
+                  <div class="seats">
+                      <input type="checkbox" name="seats">
+                      <label for="">28</label>
+                  </div>
+              </div>
+          </div>
+          <div class="total">
+              <input type="button" value="Book" id="bookBtn">
+          </div>
+      </form>
+      <div class="task6Result" id="task6Result">
+          <h4>My tickets: </h4>
+          <table id="tabResult">
+              <tr>
+                  <th>Direction</th>
+                  <th>Date</th>
+                  <th>Seat</th>
+              </tr>
+          </table>
+      </div>
+  </div>
+</body>
+<script src="task1.js"></script>
+<script src="task2.js"></script>
+<script src="task3.js"></script>
+<script src="task4.js"></script>
+<script src="task5.js"></script>
+<script src="task6.js"></script>
+</html>

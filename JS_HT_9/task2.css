@@ -1,0 +1,76 @@
+*{
+    font-family: "Gill Sans", sans-serif;
+}
+.task2{
+    width: 800px;
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.blocks{
+    padding: 10px;
+    margin: 10px;
+}
+
+h5, h6{
+    text-align: center;
+    margin: 0;
+}
+
+.usersList{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.user{
+    width: 230px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.user:hover{
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+table{
+    margin: 10px;
+    padding: 0;
+    border-spacing: 0;
+}
+
+.col1, .col2{
+    border: 1px solid gray;
+    border-spacing: 0;
+    text-align: left;
+    padding: 5px 10px;
+}
+.col1{
+    width: 100px;
+}
+.col2{
+    width: 614px;
+}
+
+.postList{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+
+.post{
+    width: 328px;
+    height: fit-content;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#b2,#b3{
+    display: none;
+}

@@ -1,0 +1,31 @@
+.task2{
+    margin: 10px;
+    padding: 20px;
+}
+
+.messageBlock{
+    background-color: bisque;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.radioButtons>*{
+    display: block;
+}
+
+.radioButtons input{
+    margin-right: 10px;
+}
+
+#calculate{
+    width: 150px;
+    height: 20px;
+    background-color: lightgray;
+    box-shadow: none;
+    border: 1px solid darkgrey;
+}
+
+#result{
+    display: none;
+}

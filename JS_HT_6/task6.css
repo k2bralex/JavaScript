@@ -1,0 +1,67 @@
+.task6{
+    padding: 5px;
+    margin: 5px;
+}
+
+.task6 form{
+   background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    width: 800px;
+}
+
+.cols{
+    display: inline-block;
+    margin-left: 13%;
+}
+
+.vagonBlock{
+    display: none;
+    width: 100%;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    flex-flow: row nowrap;
+}
+
+.coupe{
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100px;
+    height: 60px;
+    margin: 3px;
+    padding: 5px;
+}
+
+.seats{
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 45px;
+    height: 25px;
+    margin: 1px;
+}
+
+.total{
+    display: none;
+    margin-right: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.total>*{
+    margin-left: 10px;
+}
+
+#tabResult{
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+    border: 1px solid darkgrey;
+}
+
+th, td{
+    border: 1px solid darkgrey;
+    margin: 5px;
+    padding: 5px;
+}

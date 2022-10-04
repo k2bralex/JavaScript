@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="demo" ></p>
+</body>
+<script>
+    function getStructure() {
+        var c = document.documentElement.childNodes;
+        let c1 = c.filter(i=>i.nodeName!=='#text');
+        var msg = "";
+        for (let i = 0; i < c.length; ++i) {
+            let d = c[i];
+            msg += (+i + 1) + ". " + d.tagName + " (" +
+                d.nodeName + ")<br>";
+            if (d.hasChildNodes()) {
+                let e = d.childNodes;
+                for (let j = 0; j < e.length; ++j) {
+                    let f = e[j];
+                    msg += " &nbsp; " + (+j + 1) + ". " +
+                        f.tagName + " (" + f.nodeName +
+                        ")<br>";
+                }
+            }
+        }
+        window.d2.innerHTML = msg;
+    }
+</script>
+</html>

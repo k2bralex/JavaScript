@@ -1,0 +1,112 @@
+.task4{
+    margin: 10px;
+    padding: 20px;
+}
+
+.task4 main{
+    background-color: bisque;
+    display: flex;
+    flex-flow: row nowrap;
+    width: fit-content;
+}
+
+.book{
+    height: 400px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.book img{
+    height: 200px;
+    width: 150px;
+    padding-left: 20px;
+}
+
+.book>*{
+    margin: 5px;
+    padding: 5px;
+}
+
+.book a{
+    font-size: 10px;
+}
+
+.book h4{
+    text-align: right;
+    margin: 0;
+}
+.book .select{
+    margin-left: 50px;
+}
+
+.books{
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.books>*{
+    display: inline-block;
+}
+
+.order{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.order>*{
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+}
+
+.rows{
+    margin-bottom: 5px;
+}
+
+.order form{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.rows label{
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.rows input{
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+}
+
+.rows textarea{
+    height: 100px;
+    width: 250px;
+}
+
+.rows #buy{
+    width: 100%;
+    background-color: lightgray;
+    border: 1px solid darkgrey;
+    text-align: center;
+}
+
+.select{
+    background-color: lightgray;
+    box-shadow: none;
+    border: 1px solid darkgrey;
+}
+
+#result1{
+    background-color: bisque;
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+#result1>*{
+    margin: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <section>
+        <h4>Search:</h4>
+        <div class="searchContainer">
+            <div id="searchForm">
+                <div>
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title" value="">
+                </div>
+                <div>
+                    <label for="type">Type</label>
+                    <select name="type" id="type">
+                        <option value="Movie" selected>Movie</option>
+                    </select>
+                </div>
+                <input type="button" name="" id="searchBtn" value="Search">
+            </div>
+        </div>
+        <div class="loader"></div>
+    </section>
+    <section style="display: none">
+        <h4>Movies:</h4>
+        <div class="filmList">
+        </div>
+        <button id="more" style="width: 200px;">More</button>
+        <div class="loader"></div>
+    </section>
+    <section>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="detailed">
+                    <img src="" alt="poster" id="fullPoster">
+                    <table>
+                        <tr>
+                            <th class="col1">Title</th>
+                            <td class="col2"></td>
+                        </tr>
+                        <tr>
+                            <th class="col1">Released</th>
+                            <td class="col2"></td>
+                        </tr>
+                        <tr>
+                            <th class="col1">Genre</th>
+                            <td class="col2"></td>
+                        </tr>
+                        <tr>
+                            <th class="col1">Country</th>
+                            <td class="col2"></td>
+                        </tr>
+                        <tr>
+                            <th class="col1">Director</th>
+                            <td class="col2"></td>
+                        </tr>
+                        <tr>
+                            <th class="col1">Writer</th>
+                            <td class="col2"></td>
+                        </tr>
+                        <tr>
+                            <th class="col1">Actors</th>
+                            <td class="col2"></td>
+                        </tr>
+                        <tr>
+                            <th class="col1">Awards</th>
+                            <td class="col2"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.task3{
+    margin: 10px;
+    padding: 20px;
+}
+
+#selections{
+    margin-left: 30%;
+}
+
+#selections>*{
+    display: inline-block;
+}
+
+#selections>*>*{
+    padding-left: 30px;
+}
+
+#contentBlock,
+#resultBlock{
+    background-color: bisque;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#textContent{
+    margin: 10px;
+    width: 98.5%;
+    height: 200px;
+    overflow: hidden;
+}
+
+#showText{
+    margin-left: 10px;
+    width: 99%;
+    height: 30px;
+    background-color: lightgray;
+    box-shadow: none;
+    border: 1px solid darkgrey;
+}
+
+#resultBlock{
+    display: none;
+}
+
+#showContent{
+    border: 1px solid black;
+    padding: 10px;
+}

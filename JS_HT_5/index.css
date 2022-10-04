@@ -1,0 +1,70 @@
+*{
+    font-family: "Noto Sans Old Permic", sans-serif
+}
+
+.task1{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+}
+
+.task2{
+    background-color: #cbcbcb;
+    margin: 10px;
+    padding: 10px;
+}
+
+.task3{
+    background-color: #cfecbd;
+    margin: 10px;
+    padding: 10px;
+}
+
+.task4{
+    background-color: #e7bdec;
+    margin: 10px;
+    padding: 10px;
+}
+
+.task5{
+    background-color: #bdcdf1;
+    margin: 10px;
+    padding: 10px;
+}
+
+.task6{
+    background-color: #f1eabd;
+    margin: 10px;
+    padding: 10px;
+}
+
+#thisPC{
+    width: fit-content;
+}
+
+#borderId{
+    border: 1px solid blueviolet;
+    position: relative;
+}
+#borderId p{
+    padding: 10px;
+    width: inherit;
+}
+
+/*li a:hover{
+    font-weight: bold;
+}*/
+
+#triangle {
+    width: 20px;
+    height: 20px;
+    background-image:
+            linear-gradient(to top left, blueviolet 50%, transparent 0);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+

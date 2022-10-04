@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task9</title>
+    <link rel="stylesheet" href="task1.css">
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <h3>Task 1</h3>
+    <div class="task1">
+        <section class="block">
+            <p><b>Enter JSON data:</b></p>
+            <textarea name="enterJSON" id="input" cols="50" rows="27"></textarea>
+        </section>
+        <div class="wrapper"><span>&#9656</span></div>
+        <section class="block">
+            <p><b>Formatted JSON data:</b></p>
+            <textarea name="enterJSON" id="output" cols="50" rows="27" readonly></textarea>
+        </section>
+    </div>
+    <h3>Task 2</h3>
+    <div class="task2">
+        <section class="blocks" id="b1">
+            <h5>All users:</h5>
+            <div class="usersList" id="usersList">
+            </div>
+        </section>
+        <section class="blocks" id="b2">
+            <h5>User info:</h5>
+            <table id="pesronalData">
+                <tr>
+                    <th class="col1">Name:</th>
+                    <td class="col2"></td>
+                </tr>
+                <tr>
+                    <th class="col1">Username:</th>
+                    <td class="col2"></td>
+                </tr>
+                <tr>
+                    <th class="col1">Address:</th>
+                    <td class="col2"></td>
+                </tr>
+                <tr>
+                    <th class="col1">Email:</th>
+                    <td class="col2"></td>
+                </tr>
+                <tr>
+                    <th class="col1">Phone:</th>
+                    <td class="col2"></td>
+                </tr>
+                <tr>
+                    <th class="col1">Website:</th>
+                    <td class="col2"></td>
+                </tr>
+            </table>
+            <input type="button" value="Show posts" style="width: 740px; margin: 10px;" id="showPost">
+        </section>
+        <section class="blocks" id="b3">
+            <h5>User`s posts:</h5>
+            <div class="postList" id="postList">
+                <div class="post">
+                    <h6></h6>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+    </div>
+<script src="task1.js"></script>
+<script src="task2.js"></script>
+</body>
+</html>
